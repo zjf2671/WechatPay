@@ -16,8 +16,8 @@ public class WechatConfig {
 	public static final String MCH_ID = "xx";// 商户号
 	public static final String API_KEY = "xx";// API密钥
 
-	// 回调URL
-	public static final String NOTIFY_URL = "自己的回调URL";
+	// 异步通知URL
+	public static final String NOTIFY_URL = "自己的异步通知URL";
 
 	// 微信支付统一接口(POST)
 	public static final String UNIFIED_ORDER_URL = "https://api.mch.weixin.qq.com/pay/unifiedorder";
